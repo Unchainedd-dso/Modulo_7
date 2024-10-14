@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 628px;
+    margin:80px auto;
+    width: 100%;
+}
+
+h1,span{
+    margin-bottom: 20px;
+    display: block;
+}
+
+span{
+    margin-left: 4px;
+}
+
+input, button{
+    display: block;
+    width: 100%;
+    padding:8px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: rgb(158, 241, 158);
+    color:#fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+#correct{
+    background-color: greenyellow;
+    padding: 8px;
+    text-align: center;
+    display:none;
+}
+
+#wrong{
+    background-color: red;
+    padding: 8px;
+    text-align: center;
+    display: none;
+}
+
